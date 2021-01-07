@@ -8,8 +8,7 @@ spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
-    password: 18821203182
-    url: jdbc:mysql://127.0.0.1/imooc?caracterEncoding=utf-8&useSSL=false
+    password: 123456
+    url: jdbc:mysql://127.0.0.1/imooc?caracterEncoding=utf-8&useSSL=false&serverTimezone=UTC
   jpa:
     show-sql: true
-     
