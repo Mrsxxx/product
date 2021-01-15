@@ -1,13 +1,12 @@
 package com.imooc.product.repository;
 
-import com.imooc.product.*;
+
 import com.imooc.product.dataobject.ProductInfo;
 import org.junit.Assert;
 import org.junit.Test;
-import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.junit4.SpringRunner;
+import org.springframework.stereotype.Component;
+import com.imooc.product.ProductApplicationTests;
 
 import java.util.List;
 
@@ -19,9 +18,8 @@ import java.util.List;
  * @date 2021-01-07 ,18:20
  * @packageName com.imooc.product.repository
  */
-@SpringBootTest
-@RunWith(SpringRunner.class)
-public class ProductInfoRepositoryTest {
+@Component
+public class ProductInfoRepositoryTest extends ProductApplicationTests {
     @Autowired
     private ProductInfoRepository productInfoRepository;
 
