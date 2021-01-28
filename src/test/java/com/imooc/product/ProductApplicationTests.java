@@ -6,7 +6,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @SpringBootTest
 @RunWith(SpringRunner.class)
-class ProductApplicationTests {
+public class ProductApplicationTests {
 
 
 }
