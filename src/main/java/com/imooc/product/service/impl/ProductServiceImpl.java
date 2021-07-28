@@ -30,4 +30,11 @@ public class ProductServiceImpl implements ProductService {
         List<ProductInfo> byProductStatus = productInfoRepository.findByProductStatus(ProductStatusEnum.UP.getCode());
         return byProductStatus;
     }
+
+
+
+
+
+
+
 }
